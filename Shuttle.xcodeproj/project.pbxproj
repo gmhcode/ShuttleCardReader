@@ -8,24 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		9014C98E224BEE1C00966606 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014C98D224BEE1C00966606 /* AppDelegate.m */; };
-		9014C991224BEE1C00966606 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014C990224BEE1C00966606 /* ViewController.m */; };
 		9014C994224BEE1C00966606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9014C992224BEE1C00966606 /* Main.storyboard */; };
 		9014C996224BEE1E00966606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9014C995224BEE1E00966606 /* Assets.xcassets */; };
 		9014C999224BEE1E00966606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9014C997224BEE1E00966606 /* LaunchScreen.storyboard */; };
 		9014C99C224BEE1E00966606 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014C99B224BEE1E00966606 /* main.m */; };
+		9014C9B1224BF42000966606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9014C9B0224BF42000966606 /* ViewController.swift */; };
+		9014C9B3224BF80900966606 /* Swipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9014C9B2224BF80900966606 /* Swipe.swift */; };
+		9014C9B8224C1C6B00966606 /* IDTECH_UniMag.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9014C9B6224C1C5400966606 /* IDTECH_UniMag.a */; };
+		9014C9BB224C1CCB00966606 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9014C9BA224C1CCB00966606 /* AudioToolbox.framework */; };
+		9014C9BD224C1CDC00966606 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9014C9BC224C1CDC00966606 /* MessageUI.framework */; };
+		9014C9BF224C1CF200966606 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9014C9BE224C1CF200966606 /* MediaPlayer.framework */; };
+		9014C9C1224C1CFA00966606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9014C9C0224C1CFA00966606 /* Foundation.framework */; };
+		9014C9C3224C1CFF00966606 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9014C9C2224C1CFF00966606 /* UIKit.framework */; };
+		9014C9C5224C1D0600966606 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9014C9C4224C1D0600966606 /* AVFoundation.framework */; };
+		9014C9F2224C346D00966606 /* AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9014C9F1224C346D00966606 /* AlertExtension.swift */; };
+		9014C9F5224C34D700966606 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9014C9F4224C34D700966606 /* MessageView.swift */; };
+		9014C9F8224C449500966606 /* NoteAndSel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9014C9F7224C449500966606 /* NoteAndSel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9014C989224BEE1C00966606 /* Shuttle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shuttle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9014C98C224BEE1C00966606 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9014C98D224BEE1C00966606 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9014C98F224BEE1C00966606 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9014C990224BEE1C00966606 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9014C993224BEE1C00966606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9014C995224BEE1E00966606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9014C998224BEE1E00966606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9014C99A224BEE1E00966606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9014C99B224BEE1E00966606 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9014C9A6224BEF3E00966606 /* Shuttle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shuttle-Bridging-Header.h"; sourceTree = "<group>"; };
+		9014C9B0224BF42000966606 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9014C9B2224BF80900966606 /* Swipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swipe.swift; sourceTree = "<group>"; };
+		9014C9B4224C1B5B00966606 /* uniMag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uniMag.h; path = ../../uniMag.h; sourceTree = "<group>"; };
+		9014C9B6224C1C5400966606 /* IDTECH_UniMag.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = IDTECH_UniMag.a; path = ../../IDTECH_UniMag.a; sourceTree = "<group>"; };
+		9014C9BA224C1CCB00966606 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9014C9BC224C1CDC00966606 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9014C9BE224C1CF200966606 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9014C9C0224C1CFA00966606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9014C9C2224C1CFF00966606 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9014C9C4224C1D0600966606 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9014C9F1224C346D00966606 /* AlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExtension.swift; sourceTree = "<group>"; };
+		9014C9F4224C34D700966606 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		9014C9F7224C449500966606 /* NoteAndSel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteAndSel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +56,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9014C9C5224C1D0600966606 /* AVFoundation.framework in Frameworks */,
+				9014C9C3224C1CFF00966606 /* UIKit.framework in Frameworks */,
+				9014C9C1224C1CFA00966606 /* Foundation.framework in Frameworks */,
+				9014C9BF224C1CF200966606 /* MediaPlayer.framework in Frameworks */,
+				9014C9BD224C1CDC00966606 /* MessageUI.framework in Frameworks */,
+				9014C9BB224C1CCB00966606 /* AudioToolbox.framework in Frameworks */,
+				9014C9B8224C1C6B00966606 /* IDTECH_UniMag.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +74,7 @@
 			children = (
 				9014C98B224BEE1C00966606 /* Shuttle */,
 				9014C98A224BEE1C00966606 /* Products */,
+				9014C9B9224C1CCB00966606 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +89,60 @@
 		9014C98B224BEE1C00966606 /* Shuttle */ = {
 			isa = PBXGroup;
 			children = (
-				9014C98C224BEE1C00966606 /* AppDelegate.h */,
-				9014C98D224BEE1C00966606 /* AppDelegate.m */,
-				9014C98F224BEE1C00966606 /* ViewController.h */,
-				9014C990224BEE1C00966606 /* ViewController.m */,
+				9014C9B4224C1B5B00966606 /* uniMag.h */,
+				9014C9B6224C1C5400966606 /* IDTECH_UniMag.a */,
+				9014C9B0224BF42000966606 /* ViewController.swift */,
+				9014C9F7224C449500966606 /* NoteAndSel.swift */,
+				9014C9B2224BF80900966606 /* Swipe.swift */,
 				9014C992224BEE1C00966606 /* Main.storyboard */,
-				9014C995224BEE1E00966606 /* Assets.xcassets */,
-				9014C997224BEE1E00966606 /* LaunchScreen.storyboard */,
+				9014C9F6224C34DF00966606 /* HelperClasses */,
+				9014C9F3224C347000966606 /* Extensions */,
+				9014C9A2224BEEA300966606 /* Resources */,
 				9014C99A224BEE1E00966606 /* Info.plist */,
 				9014C99B224BEE1E00966606 /* main.m */,
+				9014C9A6224BEF3E00966606 /* Shuttle-Bridging-Header.h */,
 			);
 			path = Shuttle;
+			sourceTree = "<group>";
+		};
+		9014C9A2224BEEA300966606 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9014C98C224BEE1C00966606 /* AppDelegate.h */,
+				9014C98D224BEE1C00966606 /* AppDelegate.m */,
+				9014C995224BEE1E00966606 /* Assets.xcassets */,
+				9014C997224BEE1E00966606 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9014C9B9224C1CCB00966606 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9014C9C4224C1D0600966606 /* AVFoundation.framework */,
+				9014C9C2224C1CFF00966606 /* UIKit.framework */,
+				9014C9C0224C1CFA00966606 /* Foundation.framework */,
+				9014C9BE224C1CF200966606 /* MediaPlayer.framework */,
+				9014C9BC224C1CDC00966606 /* MessageUI.framework */,
+				9014C9BA224C1CCB00966606 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9014C9F3224C347000966606 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9014C9F1224C346D00966606 /* AlertExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9014C9F6224C34DF00966606 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9014C9F4224C34D700966606 /* MessageView.swift */,
+			);
+			path = HelperClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +176,7 @@
 				TargetAttributes = {
 					9014C988224BEE1C00966606 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -141,8 +216,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9014C991224BEE1C00966606 /* ViewController.m in Sources */,
+				9014C9F5224C34D700966606 /* MessageView.swift in Sources */,
+				9014C9F2224C346D00966606 /* AlertExtension.swift in Sources */,
+				9014C9B1224BF42000966606 /* ViewController.swift in Sources */,
 				9014C99C224BEE1E00966606 /* main.m in Sources */,
+				9014C9F8224C449500966606 /* NoteAndSel.swift in Sources */,
+				9014C9B3224BF80900966606 /* Swipe.swift in Sources */,
 				9014C98E224BEE1C00966606 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57FTCZV5HS;
 				INFOPLIST_FILE = Shuttle/Info.plist;
@@ -292,8 +372,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Shuttle",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.greghughes.Shuttle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shuttle/Shuttle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -302,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57FTCZV5HS;
 				INFOPLIST_FILE = Shuttle/Info.plist;
@@ -309,8 +397,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Shuttle",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.greghughes.Shuttle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shuttle/Shuttle-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
